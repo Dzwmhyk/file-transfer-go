@@ -24,7 +24,7 @@ export default function WeChatGroup() {
                         {/* 微信群二维码 - 请将此区域替换为实际的二维码图片 */}
                         <div className="relative">
                             <img
-                                src="https://cdn-img.luxika.cc//i/2025/09/04/68b8f0d135edc.png"
+                                src="https://i2.hdslb.com/bfs/face/2974cd0ab4593dc726e315b5a57c6ed3be5c0b19.jpg@240w_240h_1c_1s_!web-avatar-nav.avif"
                                 alt="微信群二维码"
                                 className="w-64 h-64 rounded-xl"
                             />
