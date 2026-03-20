@@ -14,7 +14,7 @@ export default function WeChatGroup() {
                     </div>
                     <h2 className="text-2xl font-bold text-slate-800 mb-2">加入微信交流群</h2>
                     <p className="text-slate-600 text-lg">
-                        佬们有意见/建议/bug反馈或者奇思妙想想来交流，可以扫码加入
+                        宝宝们有意见/建议/bug反馈或者奇思妙想想来交流，可以扫码加入
                     </p>
                 </div>
 
