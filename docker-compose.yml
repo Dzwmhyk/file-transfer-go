@@ -15,7 +15,7 @@ services:
   #     retries: 3
   #     start_period: 40s
   file-transfer-go: 
-    image: matrixseven/file-transfer-go:latest
+    build: .
     ports:
       - "8080:8080"
     restart: unless-stopped
