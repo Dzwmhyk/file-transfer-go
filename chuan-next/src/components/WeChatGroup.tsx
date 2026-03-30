@@ -23,42 +23,49 @@ export default function WeChatGroup() {
                     <div className="bg-white rounded-2xl p-6 shadow-lg border border-slate-200">
                         {/* 微信群二维码 - 请将此区域替换为实际的二维码图片 */}
                         <div className="relative">
-                            <iframe width="410px" height="650px" allow="camera;microphone" src="https://chat.dzwmhyk.top/哈基莫之窝/" frameborder=0 allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-
-            {/* 说明文字 */}
-            <div className="bg-green-50 rounded-xl p-6 border border-green-200">
-                <div className="text-sm text-green-700 space-y-2">
-                    <p className="text-base font-semibold text-green-800 mb-3">🎉 欢迎加入我们的交流群！</p>
-
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-left">
-                        <div className="flex items-center space-x-2">
-                            <span>💬</span>
-                            <span>分享使用心得和建议</span>
-                        </div>
-                        <div className="flex items-center space-x-2">
-                            <span>🐛</span>
-                            <span>反馈问题和bug</span>
-                        </div>
-                        <div className="flex items-center space-x-2">
-                            <span>💡</span>
-                            <span>提出新功能想法</span>
-                        </div>
-                        <div className="flex items-center space-x-2">
-                            <span>🤝</span>
-                            <span>与其他用户交流技术</span>
+                            <iframe
+                                width="410px"
+                                height="650px"
+                                allow="camera;microphone"
+                                src="https://chat.dzwmhyk.top/哈基莫之窝/"
+                                frameBorder="0"
+                                allowFullScreen
+                            ></iframe>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            {/* 额外信息 */}
-            <div className="mt-4 text-xs text-slate-500">
-                <p>群内禁止广告和无关内容，查看公共信息与交流请遵守辙隙用户条款</p>
+                {/* 说明文字 */}
+                <div className="bg-green-50 rounded-xl p-6 border border-green-200">
+                    <div className="text-sm text-green-700 space-y-2">
+                        <p className="text-base font-semibold text-green-800 mb-3">🎉 欢迎加入我们的交流群！</p>
+
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-left">
+                            <div className="flex items-center space-x-2">
+                                <span>💬</span>
+                                <span>分享使用心得和建议</span>
+                            </div>
+                            <div className="flex items-center space-x-2">
+                                <span>🐛</span>
+                                <span>反馈问题和bug</span>
+                            </div>
+                            <div className="flex items-center space-x-2">
+                                <span>💡</span>
+                                <span>提出新功能想法</span>
+                            </div>
+                            <div className="flex items-center space-x-2">
+                                <span>🤝</span>
+                                <span>与其他用户交流技术</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* 额外信息 */}
+                <div className="mt-4 text-xs text-slate-500">
+                    <p>群内禁止广告和无关内容，查看公共信息与交流请遵守辙隙用户条款</p>
+                </div>
             </div>
-        </div>
         </div >
     );
 }
