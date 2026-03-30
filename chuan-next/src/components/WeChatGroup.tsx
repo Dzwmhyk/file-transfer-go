@@ -12,9 +12,9 @@ export default function WeChatGroup() {
                     <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-500 rounded-xl flex items-center justify-center mx-auto mb-4">
                         <Users className="w-6 h-6 text-white" />
                     </div>
-                    <h2 className="text-2xl font-bold text-slate-800 mb-2">加入微信交流群</h2>
+                    <h2 className="text-2xl font-bold text-slate-800 mb-2">加入陨莫的小窝</h2>
                     <p className="text-slate-600 text-lg">
-                        宝宝们有意见/建议/bug反馈或者奇思妙想想来交流，可以扫码加入
+                        大佬们有意见/建议/bug反馈或者奇思妙想想来交流，可以注册加入辙隙
                     </p>
                 </div>
 
@@ -60,7 +60,7 @@ export default function WeChatGroup() {
 
                 {/* 额外信息 */}
                 <div className="mt-4 text-xs text-slate-500">
-                    <p>群内禁止广告和无关内容，专注技术交流</p>
+                    <p>群内禁止广告和无关内容，查看公共信息与交流请遵守辙隙用户条款</p>
                 </div>
             </div>
         </div>
