@@ -21,7 +21,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/MatrixSeven/file-transfer-go.git
+git clone https://github.com/Dzwmhyk/file-transfer-go.git
 cd file-transfer-go
 
 # 启动后端服务
