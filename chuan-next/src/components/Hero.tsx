@@ -17,21 +17,19 @@ export default function Hero() {
       {/* GitHub开源链接和帮助 */}
       <div className="flex items-center justify-center gap-2 mb-4">
         <a 
-          href="https://github.com/MatrixSeven/file-transfer-go" 
+          href="https://bd.dzwmhyk.top" 
           target="_blank" 
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1 px-3 py-1.5 text-xs sm:text-sm text-slate-600 hover:text-slate-800 bg-slate-100 hover:bg-slate-200 rounded-full transition-colors duration-200 border border-slate-200 hover:border-slate-300"
         >
-          <Github className="w-3 h-3 sm:w-4 sm:h-4" />
-          <span className="font-medium">开源地址</span>
+          <span className="font-medium">辙隙</span>
         </a>
         
         <Link 
-          href="/help"
+          href="https://chat.dzwmhyk.top"
           className="inline-flex items-center gap-1 px-3 py-1.5 text-xs sm:text-sm text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 rounded-full transition-colors duration-200 border border-blue-200 hover:border-blue-300"
         >
-          <HelpCircle className="w-3 h-3 sm:w-4 sm:h-4" />
-          <span className="font-medium">使用帮助</span>
+          <span className="font-medium">辙隙聊天室</span>
         </Link>
       </div>
       
