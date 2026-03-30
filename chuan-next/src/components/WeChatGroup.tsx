@@ -18,18 +18,20 @@ export default function WeChatGroup() {
                     </p>
                 </div>
 
-                {/* 二维码区域 */}
-                <div className="flex justify-center mb-6">
-                    <div className="bg-white rounded-2xl p-6 shadow-lg border border-slate-200">
-                        {/* 微信群二维码 - 请将此区域替换为实际的二维码图片 */}
-                        <div className="relative">
-                            <img
-                                src="https://i2.hdslb.com/bfs/face/2974cd0ab4593dc726e315b5a57c6ed3be5c0b19.jpg@240w_240h_1c_1s_!web-avatar-nav.avif"
-                                alt="微信群二维码"
-                                className="w-64 h-64 rounded-xl"
-                            />
-                        </div>
-                    </div>
+              {/* 二维码/嵌入区域 */}
+<div className="flex justify-center mb-6">
+    <div className="bg-white rounded-2xl p-6 shadow-lg border border-slate-200">
+        <iframe
+            width="410px"
+            height="650px"
+            allow="camera;microphone"
+            src="https://chat.dzwmhyk.top/哈基莫之窝/"
+            frameBorder={0}
+            allowFullScreen
+            className="rounded-xl w-[410px] h-[650px]"
+        ></iframe>
+    </div>
+</div>
                 </div>
 
                 {/* 说明文字 */}
