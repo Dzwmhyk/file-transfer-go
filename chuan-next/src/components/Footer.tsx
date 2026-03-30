@@ -22,7 +22,7 @@ export default function Footer() {
           </Link>
           
           <a 
-            href="https://github.com/MatrixSeven/file-transfer-go" 
+            href="https://github.com/Dzwmhyk/file-transfer-go" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-slate-500 hover:text-slate-700 transition-colors duration-200 flex items-center gap-1"
@@ -32,17 +32,17 @@ export default function Footer() {
           </a>
           
           <a 
-            href="https://x.com/_MatrixSeven" 
+            href="https://chat.dzwmhyk.top" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-slate-500 hover:text-blue-400 transition-colors duration-200 flex items-center gap-1"
           >
             <MessageCircle className="w-3.5 h-3.5" />
-            X
+            辙隙聊天室
           </a>
           
           <a 
-            href="https://github.com/MatrixSeven/file-transfer-go/issues" 
+            href="https://github.com/Dzwmhyk/file-transfer-go/issues" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-slate-500 hover:text-orange-500 transition-colors duration-200 flex items-center gap-1"
